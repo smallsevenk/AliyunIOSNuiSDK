@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.0'
   s.vendored_frameworks = 'nuisdk.framework' 
   s.public_header_files = 'nuisdk.framework/Headers/*.h'
+  s.libraries = 'c++'
   
   # Flutter.framework does not contain a i386 slice.
   s.pod_target_xcconfig = {'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 x86_64' }
