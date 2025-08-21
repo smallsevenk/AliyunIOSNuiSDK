@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'AliyunIOSNuiSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Aliyun NUI iOS SDK for Flutter plugin.'
   s.homepage         = 'https://your-company-homepage.com'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => 'LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.platform         = :ios, '13.0'
